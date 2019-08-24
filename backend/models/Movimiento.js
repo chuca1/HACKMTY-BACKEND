@@ -1,15 +1,15 @@
 const { model, Schema } = require("mongoose");
 
-const gastosSchema = new Schema(
+const movimientoSchema = new Schema(
   {
     rfc: String,
     uuid: String,
     ccyisocode: String,
-    ccyfx: Number,
+    ccyfx: String,
     paymentmethod: Number,
     paymenttype: String,
-    subtotal: Number,
-    total: Number,
+    subtotal: String,
+    total: String,
     placegenerated: Number,
     date: Date,
     receptorname: String,
@@ -18,13 +18,13 @@ const gastosSchema = new Schema(
     status: String,
     productid: Number,
     quantity: Number,
-    cost: Number
+    cost: String
   },
   {
     versionKey: false,
     timestamps: true
   }
 );
-const Gastos = model("Gastos", gastosSchema);
+const Movimiento = model("Movimiento", movimientoSchema);
 
-module.exports = Gastos;
+module.exports = Movimiento;
