@@ -1,4 +1,4 @@
-rfc,uuid,ccyisocode,ccyfx,paymentmethod,paymenttype,subtotal,total,placegenerated,date,receptorname,receptorname,emisorname,emisorname,status,productid,quantity,cost
+rfc,uuid,ccyisocode,ccyfx,paymentmethod,paymenttype,subtotal,total,placegenerated,date,receptorname,receptorname,emisorrfc,emisorname,status,productid,quantity,cost
 JXA0004269K14,07B75EC0-8C5C-4E39-BB27-AC2869727578,MXN,,1,PUE,426,"480,96",36200,2018-10-02T18:29:39,JXA0004269K9,FRENL*****,RMB7401303A4,TRANSP*****,Vigente,78121601,1,18
 JXA0004269K14,07B75EC0-8C5C-4E39-BB27-AC2869727578,MXN,,1,PUE,426,"480,96",36200,2018-10-02T18:29:39,JXA0004269K9,FRENL*****,RMB7401303A4,TRANSP*****,Vigente,78101800,1,18
 JXA0004269K14,07B75EC0-8C5C-4E39-BB27-AC2869727578,MXN,,1,PUE,426,"480,96",36200,2018-10-02T18:29:39,JXA0004269K9,FRENL*****,RMB7401303A4,TRANSP*****,Vigente,78101800,1,60
