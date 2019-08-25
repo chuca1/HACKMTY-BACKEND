@@ -4,9 +4,7 @@ const userSchema = new Schema(
   {
     username: String,
     password: String,
-    profit: Number,
-    gastos: Number,
-    ingresos: Number
+    rfc: String
   },
   {
     versionKey: false,
